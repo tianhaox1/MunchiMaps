@@ -1,0 +1,58 @@
+Usability Testing for MunchiMaps
+Introduction
+The objective of this formative usability test is to assess how user-friendly the current design 
+of the MunchiMaps platform is and how efficiently users can interact with the main UI features. 
+Since the user group includes people looking for vending machines or food and drink options,
+the test will focus on how smoothly they can navigate, locate vending machines, and use the review and rating system. 
+The test will include 3 participants, which should help identify around 60% of usability issues.
+
+Participant Screening
+Q1: On a scale of 1-10, how comfortable are you navigating online maps or location-based apps?
+Note: Disqualify participants who score below 5.
+Q2: Share your experience with using apps or websites to locate vending machines or specific locations (e.g., Google Maps, vending locators).
+Note: Participants without related experience are disqualified.
+Q3: On a scale of 1-10, how often do you explore different tools or apps to locate food or drink options efficiently?
+Note: Disqualify participants who score below 5.
+Q4: On a scale of 1-10, what is your level of satisfaction with your current method of finding vending machines or quick food options?
+Note: Participants who score 8 or higher are disqualified, as they may not need a new service like MunchiMaps.
+
+Scenarios
+Scenario 1: Interacting with Vending Machine Icons Participants will engage with the MunchiMaps interface as first-time users, 
+tasked with navigating the map to locate a vending machine of interest. They will review the available information about 
+vending machine locations, including service status,  options (e.g., snacks, drinks). During the process, participants will 
+be encouraged to speak aloud about their thoughts and actions.
+
+Instructions:
+Open the MunchiMaps website and locate a nearby vending machine.
+Click on an icon to view its details.
+Evaluate the vending machine based on its description (service status, payment options, etc.).
+Use the review section to submit feedback on the vending machine.
+Rate the machine from 1 to 5 stars and leave a comment using the review form.
+
+Scenario 2: Submitting a Review and Rating In this scenario, participants will be taken to a vending machine’s 
+review page. They will be tasked with providing feedback on the vending machine, using the review system to rate and comment. 
+The usability of the form submission and the language filter (if inappropriate words are detected) will be tested.
+Instructions:
+Open a vending machine’s info window and navigate to the review section.
+Submit a rating using the star system.
+Write a review (including an attempt to enter inappropriate words to test the language filter).
+Observe any error messages or issues while submitting the review.
+After submitting, check if the review appears correctly.
+
+
+Feedback Method
+During the usability tests, participants will be closely observed while they interact with the MunchiMaps platform,
+including navigating the vending machine icons, reading machine descriptions, submitting reviews, and using the rating system.
+This observation will cover their comments, actions, and any difficulties they face.
+After completing the tasks, participants will answer a series of post-test questions to assess their overall experience. 
+Participants will rate each statement on a scale of 1 to 10, with 1 being strongly disagree and 10 being strongly agree.
+
+"I found the MunchiMaps website easy to navigate."
+"The vending machine descriptions were clear and helpful."
+"I had no issues submitting a review and rating."
+"The website made finding a vending machine faster and easier than usual."
+"I was able to quickly understand how to use the star rating and review system."
+"I think most people would be able to use MunchiMaps without difficulty."
+"I felt confident while using the website."
+"I think MunchiMaps could improve the process of submitting feedback."
+
