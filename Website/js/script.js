@@ -182,6 +182,24 @@
         //console.log(images);
         return images;
       }
+      //draft version of clean language filter
+      const inappropriateWords = ["badword1", "badword2", "badword3"];
+
+      // Function to check for inappropriate language
+      function checkReview() {
+        const reviewText = document.getElementById("review-text").value.toLowerCase();
+        const errorMessage = document.getElementById("error-message");
+    
+        for (let word of inappropriateWords) {
+          if (reviewText.includes(word)) {
+            errorMessage.style.display = "block";
+            return false; 
+          }
+        }
+        // Hide error if no inappropriate words
+        errorMessage.style.display = "none"; 
+        return true; 
+      }
 
       class EventEmitter {
         constructor() {
@@ -244,8 +262,8 @@
                 <!-- Existing reviews will be appended here -->
               </div>
               <h4>Write a Review</h4>
-              <div class="rating_block>
-                <form class="submit-review">
+              <div class="rating_block">
+                <form class="submit-review" onsubmit="return checkReview()">
                 <textarea id="review-text" placeholder="Write your review here..." required></textarea>
                 <div class="rating">
                   <span rating-star="5"><img src="https://github.com/mike-cautela/MunchiMaps/blob/main/Website/MunchiMaps%20Assets/CookieFavicon.png?raw=true" alt="Star 5" width="30" height="30"></span>
@@ -254,6 +272,7 @@
                   <span rating-star="2"><img src="https://github.com/mike-cautela/MunchiMaps/blob/main/Website/MunchiMaps%20Assets/CookieFavicon.png?raw=true" alt="Star 2" width="30" height="30"></span>
                   <span rating-star="1"><img src="https://github.com/mike-cautela/MunchiMaps/blob/main/Website/MunchiMaps%20Assets/CookieFavicon.png?raw=true" alt="Star 1" width="30" height="30"></span>
                 </div>
+                <div id="error-message" style="color: red; display: none;">Please remove inappropriate language</div>
                 <button type="submit">Submit</button>
                 </form>
               </div>
